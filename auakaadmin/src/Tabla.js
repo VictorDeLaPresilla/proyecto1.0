@@ -1,7 +1,9 @@
-//import styles from "./Tabla.module.css"
+/*import styles from "./Tabla.module.css"*/
+import './Tabla.module.css';
 export function Tabla(){
     return(
         <table>
+        <caption>Inspección rápida</caption>
         <thead > 
         <tr>
                 <th>id</th>

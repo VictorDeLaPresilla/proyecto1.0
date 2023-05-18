@@ -13,12 +13,13 @@
     margin: 0 auto;
     border-collapse: separate;
     border-spacing: 0;
-    border: 2px solid #070001;
+    border: 1px solid #070001;
     width: 80%;
     justify-content: center;
     display: table;
     border-radius: .25rem;
     overflow-x: auto;
+    font-size: 1.5rem;
   }
   /*table {
     text-align: left;
@@ -32,7 +33,7 @@
   }*/
   
   thead tr:first-child {
-    background: #1c7ded;
+    background: #57787e;
     color: #fff;
     border: none;
   }
@@ -40,10 +41,13 @@
   th:first-child,
   td:first-child {
     padding: 0 15px 0 20px;
+   
   }
   
-  th {
+  td,th {
     font-weight: 500;
+   border: 1px solid #070001;
+   /* border-radius: .25rem;*/
   }
   
   /*thead tr:last-child th {
@@ -56,11 +60,13 @@
   }
   
   tbody tr:last-child td {
-    border: none;
+    /*border: none;*/
+    border: 2px solid #070001;
   }
   
   tbody td {
     border-bottom: 1px solid #ddd;
+    border: 2px solid #070001;
   }
   
   td:last-child {
@@ -76,9 +82,16 @@
   }
   
   .edit:hover {
-    color: #0ab5df;
+    color: #053cb4;
   }
   
   .delete:hover {
     color: #dc2a2a;
+  }
+  
+  caption{
+    border-radius: .25rem;
+    border: 1px solid #070001;
+    border-collapse: separate;
+    justify-content: center;
   }
