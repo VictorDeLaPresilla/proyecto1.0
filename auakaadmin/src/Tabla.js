@@ -1,4 +1,4 @@
-import styles from "./Tabla.module.css"
+//import styles from "./Tabla.module.css"
 export function Tabla(){
     return(
         <table>
