@@ -1,0 +1,68 @@
+[
+    {
+        "id": "15",
+        "nombre_prod": "Camarón grande sin cabeza por kg",
+        "detalles_prod": "Talla 21-25. Sin cabeza, con cáscara y con cola. Es ideal para ceviches, tostadas y aguachile",
+        "precio_prod": "319",
+        "entrega_prod": "Entrega a domicilio",
+        "fotografia_prod": " ",
+        "visible": "0",
+        "nombre": "Carlos Suárez",
+        "celular": "4427227163"
+    },
+    {
+        "id": "16",
+        "nombre_prod": "Filete de Tilapia por kilo",
+        "detalles_prod": "Ideal para cocinar platillos ricos y sanos. Producto fresco",
+        "precio_prod": "129",
+        "entrega_prod": "Entrega a domicilio",
+        "fotografia_prod": " ",
+        "visible": "0",
+        "nombre": "Carlos Suárez",
+        "celular": "4427227163"
+    },
+    {
+        "id": "17",
+        "nombre_prod": "Tilapia Sabrosa muy sabrosa",
+        "detalles_prod": "Fresca, a la talla y fileteada",
+        "precio_prod": "98",
+        "entrega_prod": "Acordar",
+        "fotografia_prod": " ",
+        "visible": "0",
+        "nombre": "Juana Laguna",
+        "celular": "4422498135"
+    },
+    {
+        "id": "18",
+        "nombre_prod": "Camaron",
+        "detalles_prod": "Fresco",
+        "precio_prod": "30",
+        "entrega_prod": "Entrega a domicilio",
+        "fotografia_prod": " ",
+        "visible": "0",
+        "nombre": "Carlos Suárez",
+        "celular": "4427227163"
+    },
+    {
+        "id": "19",
+        "nombre_prod": "Tilapia fresca",
+        "detalles_prod": "a la talla",
+        "precio_prod": "30",
+        "entrega_prod": "Acordar con el comprador",
+        "fotografia_prod": " ",
+        "visible": "0",
+        "nombre": "Carlos Suárez",
+        "celular": "4427227163"
+    },
+    {
+        "id": "20",
+        "nombre_prod": "Tilapia",
+        "detalles_prod": "150",
+        "precio_prod": "150",
+        "entrega_prod": "acordar",
+        "fotografia_prod": " ",
+        "visible": "0",
+        "nombre": "Carlos Suárez",
+        "celular": "4427227163"
+    }
+]
