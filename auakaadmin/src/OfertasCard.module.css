@@ -1,9 +1,9 @@
-.ofertaCard{
+.ofertaCard {
     list-style: none;
-    font-size: rem
+    font-size: 1.5rem;
 }
 
-.ofertaImage{
+.ofertaImage {
     border-radius: 10px;
     background-color: azure;
 }
