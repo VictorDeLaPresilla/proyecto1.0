@@ -1,0 +1,28 @@
+.ofertaCard {
+    list-style: none;
+    font-size: 1.5rem;
+    text-align: center;
+    justify-content: center;
+    /*margin: .5rem auto;*/
+}
+
+.ofertaCard:hoover{
+opacity: 0.8;
+}
+
+.ofertaImage {
+    border-radius: 10px;
+    background-color: azure;
+    /*margin: .25rem auto;*/
+    /*justify-content: center;*/
+}
+
+@media(max-width: 560px){
+    .ofertaImage {
+        width:90%;
+        height:auto;
+        /*margin: .25rem auto;*/
+        /*justify-content: center;*/
+    }
+    
+}

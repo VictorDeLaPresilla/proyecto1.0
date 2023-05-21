@@ -1,0 +1,14 @@
+.ofertaGrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 230px);
+    gap: 40px;
+    justify-content: center;
+   /* width: 90%;*/
+}
+
+@media (max-width: 560px){
+    .ofertaGrid{
+        grid-template-columns: 100%;
+       /* width: 90%;*/
+    }
+}

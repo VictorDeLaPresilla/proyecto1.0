@@ -1,10 +1,11 @@
-import datos from './TablaDa.json';
+import datos from '../components/TablaDa.json';
 import { OfertasCard } from "./OfertasCard";
-import movies from "./movies.json";
+import movies from "../movies.json";
+import styles from "./OfertasGrid.module.css";
 export function  OfertasGrird(){
-    
+
     return(
-        <ul>
+        <ul className={styles.ofertaGrid}>
            {datos.map((data) =>(
             /*<li key={data.id}>
                 <img src= {imageurl} alt={data.nombre_prod}></img>
