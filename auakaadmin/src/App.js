@@ -3,7 +3,7 @@ import styles from "./App.module.css"
 import React from 'react';
 import { Tabla } from "./components/Tabla.js";
 import { OfertasGrird } from "./components/OfertasGrid.js";
-import { OfertaDetails } from "./pages/OfertasDetails.js"
+import { OfertasDetails } from "./pages/OfertasDetails.js"
 import {
   BrowserRouter as Router,
   Switch,
@@ -19,7 +19,7 @@ function App() {
     </header>
     <main>
     <Switch>
-          <Route exact path="/ofertas/:ofertasId"><OfertaDetails /></Route>
+          <Route exact path="/ofertas/:ofertasId"><OfertasDetails/></Route>
           <Route path="/"><LandingPage/></Route>
         </Switch>
     </main>
